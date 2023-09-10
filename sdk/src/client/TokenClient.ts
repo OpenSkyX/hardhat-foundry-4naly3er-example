@@ -7,6 +7,7 @@ import {
   Signer
 } from 'ethers';
 import { ITokenClient } from '..';
+// @ts-ignore
 import { Token, Token__factory } from '../typechain';
 import { ContractTransaction } from '../model';
 

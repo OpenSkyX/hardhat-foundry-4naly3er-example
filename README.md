@@ -1,4 +1,4 @@
-# <h1 align="center"> Hardhat x Foundry Template </h1>
+# <h1 align="center"> Hardhat x Foundry x 4naly3er x slither Template </h1>
 
 **Template repository for getting started quickly with Hardhat and Foundry in one project**
 
@@ -77,3 +77,21 @@ yarn run env-cmd -f $ENV_FILE yarn run hardhat upgradeableContract:verify --name
 ### Notes
 
 Whenever you install new libraries using Foundry, make sure to update your `remappings.txt` file by running `forge remappings > remappings.txt`. This is required because we use `hardhat-preprocessor` and the `remappings.txt` file to allow Hardhat to resolve libraries you install with Foundry.
+
+
+### analyze  static analyze
+
+```shell
+ts-node ./node_modules/code4rena-report-generator/src/index.ts src
+
+ts-node ./node_modules/code4rena-report-generator/src/index.ts [contract folder]
+
+# scope.example.txt ./token.sol
+ts-node ./node_modules/code4rena-report-generator/src/index.ts scope.example.txt
+```
+
+
+###  slither  static analyze
+```shell
+slither --config-file ./slither.config.json ./src
+```

@@ -8,11 +8,13 @@ import "../../src/Token.sol";
 contract TokenTest is Test {
     Token t;
 
+    address alice = address(1);
+
     function setUp() public {
-        t = new Token();
+        t = new Token(100000000 ether);
     }
 
     function testName() public {
-        assertEq(t.name(), "Token");
+        assertEq(t.name(), "Gold");
     }
 }

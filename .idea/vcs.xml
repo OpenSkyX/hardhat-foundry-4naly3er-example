@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/solmate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/solmate/lib/ds-test" vcs="Git" />
   </component>
 </project>

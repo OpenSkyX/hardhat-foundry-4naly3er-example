@@ -4662,6 +4662,10 @@ forever-agent@~0.6.1:
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
   integrity sha512-j0KLYPhm6zeac4lz3oJ3o65qvgQCcPubiyotZrXqEaG4hNagNYO8qdlUrX5vwqv9ohqeT/Z3j6+yW067yWWdUw==
 
+forge-std@foundry-rs/forge-std:
+  version "1.6.0"
+  resolved "https://codeload.github.com/foundry-rs/forge-std/tar.gz/705263c95892a906d7af65f0f73ce8a4a0c80b80"
+
 form-data@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
@@ -8172,6 +8176,7 @@ snapdragon@^0.8.1:
     tmp "0.0.33"
 
 "solc-0.6.12@npm:solc@0.6.12", solc@^0.6.3:
+  name solc-0.6.12
   version "0.6.12"
   resolved "https://registry.yarnpkg.com/solc/-/solc-0.6.12.tgz#48ac854e0c729361b22a7483645077f58cba080e"
   integrity sha512-Lm0Ql2G9Qc7yPP2Ba+WNmzw2jwsrd3u4PobHYlSOxaut3TtUbj9+5ZrT6f4DUpNPEoBaFUOEg9Op9C0mk7ge9g==
@@ -8287,6 +8292,7 @@ snapdragon@^0.8.1:
     tmp "0.0.33"
 
 "solc-0.7.3@npm:solc@0.7.3", solc@0.7.3:
+  name solc-0.7.3
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/solc/-/solc-0.7.3.tgz#04646961bd867a744f63d2b4e3c0701ffdc7d78a"
   integrity sha512-GAsWNAjGzIDg7VxzP6mPjdurby3IkGCjQcM8GFYZT6RyaoUZKmMU6Y7YwG+tFGhv7dwZ8rmR4iwFDrrD99JwqA==
